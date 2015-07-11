@@ -77,17 +77,17 @@ angular.module('sennit.sharejs', [])
 
       var _addSharepointListItem = function (list, data) {
 
-          var restQueryUrl = "../_api/web/lists/getByTitle('" + list +"')/items";
+          var restQueryUrl = "../_api/web/lists/getByTitle('" + list + "')/items";
 
           var shareData = {
               __metadata: { "type": "SP.Data." + list + "ListItem" },
-             
+
           };
 
           for (var key in data) {
               shareData[key] = data[key];
           }
-          
+
 
           var requestBody = JSON.stringify(shareData);
 
@@ -120,7 +120,7 @@ angular.module('sennit.sharejs', [])
       };
 
       var _updateSharepointListItem = function (id, list, data) {
-          var restQueryUrl = "../_api/web/lists/getByTitle('" + list +"')/items(" + id + ")";
+          var restQueryUrl = "../_api/web/lists/getByTitle('" + list + "')/items(" + id + ")";
 
           var shareData = {
               __metadata: { "type": "SP.Data." + list + "ListItem" },
@@ -150,12 +150,13 @@ angular.module('sennit.sharejs', [])
       }
 
 
-  
+
 
 
 
 
       
+      sennitRestApiFactory.updateSharepointListItem = _updateSharepointListItem;
       sennitRestApiFactory.addSharepointListItem = _addSharepointListItem;
       sennitRestApiFactory.deleteSharepointListItem = _deleteSharepointListItem;
       sennitRestApiFactory.getMyProperties = _getMyProperties;
