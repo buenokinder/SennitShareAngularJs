@@ -14,6 +14,7 @@ In your HTML page:
 <script src="SennitShareJs.js"></script>
 ```
 
+Inside of the JS File:
 ```javascript
 var app = angular.module('SennitApp', ['sennit.sharejs']);
 ```
