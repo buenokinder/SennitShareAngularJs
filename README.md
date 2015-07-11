@@ -1,13 +1,19 @@
 # SennitShareAngularJs
 Sharepoint + Angular Js Framework
 
-Get Sharepoint List Example
+## Requirements
 
+- AngularJS
 
+## Usage
+
+## Get Sharepoint List Example
+
+```javascript
 var app = angular.module('SennitApp', ['sennit.sharejs']);
+```
 
-
-                                                   
+```javascript                                                   
 app.factory('employerService', ['$http', 'sennitRestApi', function ($http, sennitRestApi) {
 
     var employerServiceFactory = {};
@@ -27,8 +33,9 @@ app.factory('employerService', ['$http', 'sennitRestApi', function ($http, senni
     return employerServiceFactory;
 
 }]);
+```
 
-
+```javascript
 'use strict';
 app.controller('employerController', ['$scope', 'employerService',  function ($scope, employerService) {
 
@@ -43,3 +50,4 @@ app.controller('employerController', ['$scope', 'employerService',  function ($s
     });
     
 }]);
+```
