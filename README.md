@@ -1,5 +1,5 @@
 # SennitShareAngularJs
-Sharepoint + Angular Js Framework
+App Sharepoint using AngularJs
 
 ## Requirements
 
@@ -8,6 +8,11 @@ Sharepoint + Angular Js Framework
 ## Usage
 
 ## Get Sharepoint List Example
+
+In your HTML page:
+```html
+<script src="SennitShareJs.js"></script>
+```
 
 ```javascript
 var app = angular.module('SennitApp', ['sennit.sharejs']);
