@@ -106,8 +106,8 @@ angular.module('sennit.sharejs', [])
 
 
 
-      var _deleteSharepointListItem = function (id) {
-          var restQueryUrl = "../_api/web/lists/getByTitle('Customers')/items(" + id + ")";
+      var _deleteSharepointListItem = function (id, list) {
+          var restQueryUrl = "../_api/web/lists/getByTitle('" + list +"')/items(" + id + ")";
           return $http({
               method: 'DELETE',
               url: restQueryUrl,
