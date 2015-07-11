@@ -1,4 +1,5 @@
-﻿angular.module('sennit.sharejs', [])
+﻿
+angular.module('sennit.sharejs', [])
   .factory('sennitRestApi', ['$http', function ($http) {
 
 
@@ -74,9 +75,89 @@
       };
 
 
+      var _addSharepointListItem = function (list, data) {
+
+          var restQueryUrl = "../_api/web/lists/getByTitle('" + list +"')/items";
+
+          var shareData = {
+              __metadata: { "type": "SP.Data." + list + "ListItem" },
+             
+          };
+
+          for (var key in data) {
+              shareData[key] = data[key];
+          }
+          
+
+          var requestBody = JSON.stringify(shareData);
+
+          return $http({
+              method: 'POST',
+              url: restQueryUrl,
+              contentType: "application/json;odata=verbose",
+              data: requestBody,
+              headers: {
+                  "Accept": "application/json; odata=verbose",
+                  "X-RequestDigest": _requestDigest,
+                  "content-type": "application/json;odata=verbose"
+              }
+          });
+      };
 
 
 
+      var _deleteSharepointListItem = function (id) {
+          var restQueryUrl = "../_api/web/lists/getByTitle('Customers')/items(" + id + ")";
+          return $http({
+              method: 'DELETE',
+              url: restQueryUrl,
+              headers: {
+                  "Accept": "application/json; odata=verbose",
+                  "X-RequestDigest": _requestDigest,
+                  "If-Match": "*"
+              }
+          });
+      };
+
+      var _updateSharepointListItem = function (id, list, data) {
+          var restQueryUrl = "../_api/web/lists/getByTitle('" + list +"')/items(" + id + ")";
+
+          var shareData = {
+              __metadata: { "type": "SP.Data." + list + "ListItem" },
+
+          };
+
+          for (var key in data) {
+              shareData[key] = data[key];
+          }
+
+
+          var requestBody = JSON.stringify(shareData);
+
+          return $http({
+              method: 'POST',
+              url: restQueryUrl,
+              contentType: "application/json;odata=verbose",
+              data: requestBody,
+              headers: {
+                  "Accept": "application/json; odata=verbose",
+                  "X-RequestDigest": _requestDigest,
+                  "content-type": "application/json;odata=verbose",
+                  "If-Match": etag,
+                  "X-HTTP-METHOD": "PATCH"
+              }
+          });
+      }
+
+
+  
+
+
+
+
+      
+      sennitRestApiFactory.addSharepointListItem = _addSharepointListItem;
+      sennitRestApiFactory.deleteSharepointListItem = _deleteSharepointListItem;
       sennitRestApiFactory.getMyProperties = _getMyProperties;
       sennitRestApiFactory.getSharepointGetUser = _getSharepointGetUser;
       sennitRestApiFactory.getSharepointList = _getSharepointList;
