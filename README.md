@@ -52,7 +52,7 @@ If the propertie **strupdate** is **true** the module work with update method, U
 ![alt tag](https://github.com/buenokinder/SennitShareAngularJs/blob/Version-2/img/update.PNG)
 
 
-## Howto User Easly Sharepoint RestApi with sennitRestApi
+## Howto use Easly Sharepoint RestApi with sennitRestApi
 
 ## Get Sharepoint List Example
 
