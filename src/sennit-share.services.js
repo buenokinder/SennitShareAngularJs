@@ -68,7 +68,7 @@ angular.module('sennit.sharejs-serices', [])
 
           return $http({
               method: 'GET',
-              url: serviceBase + "/_api/web/lists/GetByTitle('" + lista + "')/items" + query,
+              url: serviceBase + "/_vti_bin/ListData.svc/" + lista  + query,
               headers: { "Accept": "application/json; odata=verbose" }
           });
       };
@@ -94,7 +94,7 @@ angular.module('sennit.sharejs-serices', [])
               __metadata: { "type": "SP.Data." + list + "ListItem" },
 
           };
-
+          
           for (var key in data) {
               shareData[key] = data[key];
           }
@@ -161,7 +161,7 @@ angular.module('sennit.sharejs-serices', [])
       }
 
 
-      
+      sennitRestApiFactory.url = serviceBase;
       sennitRestApiFactory.getSharepointListItemCount = _getSharepointListItemCount;
       sennitRestApiFactory.updateSharepointListItem = _updateSharepointListItem;
       sennitRestApiFactory.addSharepointListItem = _addSharepointListItem;
