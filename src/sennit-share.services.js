@@ -160,6 +160,36 @@ angular.module('sennit.sharejs-serices', [])
           });
       }
 
+      var _sendMail= function (from, to, body, subject) {
+          var restQueryUrl = "../_api/SP.Utilities.Utility.SendEmail";
+
+          return $http({
+              method: 'POST',
+              url: restQueryUrl,
+              contentType: "application/json;odata=verbose",
+              data: JSON.stringify({
+        				'properties': {
+           					 '__metadata': { 'type': 'SP.Utilities.EmailProperties' },
+           					 'From': from,
+          					  'To': { 'results':  [to] },
+          					  
+          					  
+          					  'Body': body,
+         					   'Subject': subject
+       					 }
+  				  }
+  			 ),
+              headers: {
+                  "Accept": "application/json; odata=verbose",
+                  "X-RequestDigest": _requestDigest,
+                  "content-type": "application/json;odata=verbose"
+                  
+	           }
+          });
+      }
+
+  
+      sennitRestApiFactory.sendMail  = _sendMail;
 
       sennitRestApiFactory.url = serviceBase;
       sennitRestApiFactory.getSharepointListItemCount = _getSharepointListItemCount;
