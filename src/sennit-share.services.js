@@ -188,7 +188,24 @@ angular.module('sennit.sharejs-serices', [])
           });
       }
 
-  
+    
+        var _getCurrentUserId = function () {
+
+
+          return $http({
+              method: 'GET',
+              url: serviceBase + "/_api/Web/CurrentUser?$select=Id",
+              headers: { "Accept": "application/json; odata=verbose" }
+          });
+      };
+
+      
+
+
+
+
+      sennitRestApiFactory.getCurrentUserId= _getCurrentUserId;
+
       sennitRestApiFactory.sendMail  = _sendMail;
 
       sennitRestApiFactory.url = serviceBase;
