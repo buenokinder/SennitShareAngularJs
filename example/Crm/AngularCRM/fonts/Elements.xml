@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="fonts">
+    <File Path="fonts\font-awesome\css\font-awesome.css" Url="fonts/font-awesome/css/font-awesome.css" ReplaceContent="TRUE" />
+    <File Path="fonts\font-awesome\css\font-awesome.min.css" Url="fonts/font-awesome/css/font-awesome.min.css" ReplaceContent="TRUE" />
+    <File Path="fonts\font-awesome\fonts\fontawesome-webfont.eot" Url="fonts/font-awesome/fonts/fontawesome-webfont.eot" ReplaceContent="TRUE" />
+    <File Path="fonts\font-awesome\fonts\fontawesome-webfont.svg" Url="fonts/font-awesome/fonts/fontawesome-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="fonts\font-awesome\fonts\fontawesome-webfont.ttf" Url="fonts/font-awesome/fonts/fontawesome-webfont.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\font-awesome\fonts\fontawesome-webfont.woff" Url="fonts/font-awesome/fonts/fontawesome-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\font-awesome\fonts\fontawesome-webfont.woff2" Url="fonts/font-awesome/fonts/fontawesome-webfont.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\font-awesome\fonts\FontAwesome.otf" Url="fonts/font-awesome/fonts/FontAwesome.otf" ReplaceContent="TRUE" />
+    <File Path="fonts\fontello\css\animation.css" Url="fonts/fontello/css/animation.css" ReplaceContent="TRUE" />
+    <File Path="fonts\fontello\css\fontello-codes.css" Url="fonts/fontello/css/fontello-codes.css" ReplaceContent="TRUE" />
+    <File Path="fonts\fontello\css\fontello-embedded.css" Url="fonts/fontello/css/fontello-embedded.css" ReplaceContent="TRUE" />
+    <File Path="fonts\fontello\css\fontello-ie7-codes.css" Url="fonts/fontello/css/fontello-ie7-codes.css" ReplaceContent="TRUE" />
+    <File Path="fonts\fontello\css\fontello-ie7.css" Url="fonts/fontello/css/fontello-ie7.css" ReplaceContent="TRUE" />
+    <File Path="fonts\fontello\css\fontello.css" Url="fonts/fontello/css/fontello.css" ReplaceContent="TRUE" />
+    <File Path="fonts\fontello\font\fontello.eot" Url="fonts/fontello/font/fontello.eot" ReplaceContent="TRUE" />
+    <File Path="fonts\fontello\font\fontello.svg" Url="fonts/fontello/font/fontello.svg" ReplaceContent="TRUE" />
+    <File Path="fonts\fontello\font\fontello.ttf" Url="fonts/fontello/font/fontello.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\glyphicons-halflings-regular.eot" Url="fonts/glyphicons-halflings-regular.eot" ReplaceContent="TRUE" />
+    <File Path="fonts\glyphicons-halflings-regular.svg" Url="fonts/glyphicons-halflings-regular.svg" ReplaceContent="TRUE" />
+    <File Path="fonts\glyphicons-halflings-regular.ttf" Url="fonts/glyphicons-halflings-regular.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\glyphicons-halflings-regular.woff" Url="fonts/glyphicons-halflings-regular.woff" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

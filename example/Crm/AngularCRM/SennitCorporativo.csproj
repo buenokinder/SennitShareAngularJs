@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C20B03C-B2BE-4658-AD81-C40AC3BD5080}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AngularCRM</RootNamespace>
+    <AssemblyName>AngularCRM</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{9355a2eb-5992-4e3d-ab27-0e9b6693397c}</AppFeaturePartId>
+    <WspPartId>{0bc79846-77cb-43f2-86bc-73b1d20070d0}</WspPartId>
+    <WorkflowPartId>{48ce727f-04ae-40c0-a8f2-0c9073706bb7}</WorkflowPartId>
+    <CspkgPartId>{d1da4668-f535-4f53-98e8-c8cfd04d355b}</CspkgPartId>
+    <SqlPackagePartId>{df5aee64-16b7-416e-8129-35f472edceb5}</SqlPackagePartId>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>12.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Application\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aa5dcf0d-a18f-4566-8c1c-532041e2908b}</SharePointProjectItemId>
+    </None>
+    <None Include="bootstrap\css\bootstrap-theme.css.map" />
+    <None Include="bootstrap\css\bootstrap.css.map" />
+    <None Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="bootstrap\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2fa0263c-ba5b-4e91-8c36-5be54a62c733}</SharePointProjectItemId>
+    </None>
+    <None Include="Content\bootstrap-theme.css.map" />
+    <None Include="Content\bootstrap.css.map" />
+    <None Include="css\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{101ba8f0-870c-43ba-962b-551b431ae6a5}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{655a5794-7ae2-4bf9-908a-df4434e55416}</FeatureId>
+    </None>
+    <None Include="Features\Feature3\Feature3.feature">
+      <FeatureId>{a9a19bf9-c087-44bf-9d5c-bceb2be46289}</FeatureId>
+    </None>
+    <None Include="Features\Feature4\Feature4.feature">
+      <FeatureId>{f9842ce7-20d2-4b83-859b-f8f9a73d8bbe}</FeatureId>
+    </None>
+    <None Include="Features\Feature5\Feature5.feature">
+      <FeatureId>{c0b342ed-4d3d-4e23-bbcd-76b2ce407141}</FeatureId>
+    </None>
+    <None Include="Features\Feature6\Feature6.feature">
+      <FeatureId>{dc2d1157-a2a3-4d13-b629-3445c6962b22}</FeatureId>
+    </None>
+    <None Include="Features\Feature7\Feature7.feature">
+      <FeatureId>{57251119-f4bf-45d7-9c51-7c9dbd901a62}</FeatureId>
+    </None>
+    <None Include="Features\Feature8\Feature8.feature">
+      <FeatureId>{eb7142b7-3695-4d17-aafc-a09e70894219}</FeatureId>
+    </None>
+    <None Include="fonts\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="fonts\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="fonts\fontello\font\fontello.eot" />
+    <None Include="fonts\fontello\font\fontello.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4d96da94-ed8d-45b0-b02e-fb6e0f27c88e}</SharePointProjectItemId>
+    </None>
+    <None Include="js\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3579b085-dcc6-4529-84df-c362a4a25ce7}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ContaContato\ContaContatoInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3e1e36e5-28a2-4ee8-bb5a-9d2c82625f89}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\ContaContato\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2d90a3f6-a6aa-4485-bab6-3c8db2f34edb}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Contas\ContasInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b997c7ae-2502-4bae-ac21-5c0243a3ba0c}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Contas\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3ef29432-d747-4d63-814e-9a6fca401d33}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Contatos\ContatosInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a1910596-417a-41da-964f-96ba9df4ef66}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Contatos\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5e6f4319-4d4d-40ab-89ff-265939387a5d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Ofertas\OfertasInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b4b51927-a2b8-4b74-b2ad-ee418a46d4f1}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Ofertas\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e526e835-e42c-476f-960e-6838ba3f9fbf}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Oportunidades\OportunidadesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d76154cc-bdea-4c41-8cbb-c38f65bca3bf}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Oportunidades\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e154d3e2-f9f8-4e8e-af11-f77223f8fdfe}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Propostas\PropostasInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a656b3d4-7849-4421-9039-7a94f5079470}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Propostas\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{53fc20a1-4bf5-431c-a0bd-ec1b26eda5d2}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\StatusOportnidade\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6ab0909a-28ee-40ec-908e-bf9c90d97b96}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\StatusOportnidade\StatusOportnidadeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{10f4f2bd-abd2-4fc1-8c39-7f3df431be8d}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\StatusProposta\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5db1c91f-767f-4f8c-8b92-998d0218d8cd}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\StatusProposta\StatusPropostaInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{55fb3463-67fe-421b-babd-6a47b15a6c5c}</SharePointProjectItemId>
+    </None>
+    <Content Include="Application\App.js" />
+    <Content Include="Application\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Application\SennitShareJs\sennit-share.services.js" />
+    <Content Include="Application\SennitShareJs\sennit-share.ui.js" />
+    <Content Include="Application\start.html" />
+    <Content Include="Application\views\proposta\indexProposta.html" />
+    <Content Include="Application\views\proposta\newProposta.html" />
+    <Content Include="Application\views\proposta\showProposta.html" />
+    <Content Include="Application\views\contatos\indexContatos.html" />
+    <Content Include="Application\views\contatos\newContatos.html" />
+    <Content Include="Application\views\contatos\showContatos.html" />
+    <Content Include="Application\views\contas\index.html" />
+    <Content Include="Application\views\contas\show.html" />
+    <Content Include="Application\views\contas\new.html" />
+    <Content Include="Application\views\home.html" />
+    <Content Include="Application\controller\homeController.js" />
+    <Content Include="Application\services\homeService.js" />
+    <Content Include="bootstrap\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\Elements.xml" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\npm.js" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\animations.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\Elements.xml" />
+    <Content Include="css\print-invoice.css" />
+    <Content Include="css\skins\blue.css" />
+    <Content Include="css\skins\brown.css" />
+    <Content Include="css\skins\dark_cyan.css" />
+    <Content Include="css\skins\dark_gray.css" />
+    <Content Include="css\skins\dark_red.css" />
+    <Content Include="css\skins\green.css" />
+    <Content Include="css\skins\light_blue.css" />
+    <Content Include="css\skins\light_green.css" />
+    <Content Include="css\skins\orange.css" />
+    <Content Include="css\skins\pink.css" />
+    <Content Include="css\skins\purple.css" />
+    <Content Include="css\skins\red.css" />
+    <Content Include="css\skins\yellow.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Elements.xml" />
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature3\Feature3.Template.xml">
+      <DependentUpon>Feature3.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature4\Feature4.Template.xml">
+      <DependentUpon>Feature4.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature5\Feature5.Template.xml">
+      <DependentUpon>Feature5.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature6\Feature6.Template.xml">
+      <DependentUpon>Feature6.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature7\Feature7.Template.xml">
+      <DependentUpon>Feature7.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature8\Feature8.Template.xml">
+      <DependentUpon>Feature8.feature</DependentUpon>
+    </Content>
+    <Content Include="fonts\Elements.xml" />
+    <Content Include="fonts\font-awesome\css\font-awesome.css" />
+    <Content Include="fonts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fontello\css\animation.css" />
+    <Content Include="fonts\fontello\css\fontello-codes.css" />
+    <Content Include="fonts\fontello\css\fontello-embedded.css" />
+    <Content Include="fonts\fontello\css\fontello-ie7-codes.css" />
+    <Content Include="fonts\fontello\css\fontello-ie7.css" />
+    <Content Include="fonts\fontello\css\fontello.css" />
+    <Content Include="fonts\fontello\font\fontello.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <None Include="Scripts\angular-route.min.js.map" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0e3ba56b-b283-4bfd-b9fe-c6a6ca038164}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{df5aee64-16b7-416e-8129-35f472edceb5}</SharePointProjectItemId>
+    </None>
+    <Content Include="Images\loader.gif" />
+    <Content Include="Images\mantis_logo.png" />
+    <Content Include="Images\section-image-1.png" />
+    <Content Include="Images\section-image-2.png" />
+    <Content Include="Images\section-image-3.png" />
+    <Content Include="Images\section-image-4.png" />
+    <Content Include="Images\section-image-5.png" />
+    <Content Include="Images\section-image-6.png" />
+    <Content Include="Images\section-image-7.png" />
+    <Content Include="js\angular-loading-spinner.js" />
+    <Content Include="js\angular-resource.js" />
+    <Content Include="js\angular-route.min.js" />
+    <Content Include="js\angular-spinner.min.js" />
+    <Content Include="js\angular.min.js" />
+    <Content Include="js\coming.soon.config.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\Elements.xml" />
+    <Content Include="js\google.map.config.js" />
+    <Content Include="js\spin.min.js" />
+    <Content Include="js\template.js" />
+    <Content Include="js\ui-bootstrap-tpls-0.13.0.js" />
+    <Content Include="Lists\ContaContato\ContaContatoInstance\Elements.xml" />
+    <Content Include="Lists\ContaContato\Elements.xml" />
+    <Content Include="Lists\ContaContato\Schema.xml" />
+    <Content Include="Lists\Contas\ContasInstance\Elements.xml" />
+    <Content Include="Lists\Contas\Elements.xml" />
+    <Content Include="Lists\Contas\Schema.xml" />
+    <Content Include="Lists\Contatos\ContatosInstance\Elements.xml" />
+    <Content Include="Lists\Contatos\Elements.xml" />
+    <Content Include="Lists\Contatos\Schema.xml" />
+    <Content Include="Lists\Ofertas\Elements.xml" />
+    <Content Include="Lists\Ofertas\OfertasInstance\Elements.xml" />
+    <Content Include="Lists\Ofertas\Schema.xml" />
+    <Content Include="Lists\Oportunidades\Elements.xml" />
+    <Content Include="Lists\Oportunidades\OportunidadesInstance\Elements.xml" />
+    <Content Include="Lists\Oportunidades\Schema.xml" />
+    <Content Include="Lists\Propostas\Elements.xml" />
+    <Content Include="Lists\Propostas\PropostasInstance\Elements.xml" />
+    <Content Include="Lists\Propostas\Schema.xml" />
+    <Content Include="Lists\StatusOportnidade\Elements.xml" />
+    <Content Include="Lists\StatusOportnidade\Schema.xml" />
+    <Content Include="Lists\StatusOportnidade\StatusOportnidadeInstance\Elements.xml" />
+    <Content Include="Lists\StatusProposta\Elements.xml" />
+    <Content Include="Lists\StatusProposta\Schema.xml" />
+    <Content Include="Lists\StatusProposta\StatusPropostaInstance\Elements.xml" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-route.js" />
+    <Content Include="Scripts\angular-route.min.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{daa07dd2-cf5c-4702-912b-990c17cf5045}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{309fa862-151d-42f5-b90b-47d36381e84b}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{5acd3c31-069a-48fa-bc2d-062d829646a7}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{644a7f21-550d-4935-ba6e-7a1bbc5fe891}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Application\images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

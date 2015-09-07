@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="js">
+    <File Path="js\angular-loading-spinner.js" Url="js/angular-loading-spinner.js" ReplaceContent="TRUE" />
+    <File Path="js\angular-resource.js" Url="js/angular-resource.js" ReplaceContent="TRUE" />
+    <File Path="js\angular-route.min.js" Url="js/angular-route.min.js" ReplaceContent="TRUE" />
+    <File Path="js\angular-spinner.min.js" Url="js/angular-spinner.min.js" ReplaceContent="TRUE" />
+    <File Path="js\angular.min.js" Url="js/angular.min.js" ReplaceContent="TRUE" />
+    <File Path="js\coming.soon.config.js" Url="js/coming.soon.config.js" ReplaceContent="TRUE" />
+    <File Path="js\custom.js" Url="js/custom.js" ReplaceContent="TRUE" />
+    <File Path="js\google.map.config.js" Url="js/google.map.config.js" ReplaceContent="TRUE" />
+    <File Path="js\spin.min.js" Url="js/spin.min.js" ReplaceContent="TRUE" />
+    <File Path="js\template.js" Url="js/template.js" ReplaceContent="TRUE" />
+    <File Path="js\ui-bootstrap-tpls-0.13.0.js" Url="js/ui-bootstrap-tpls-0.13.0.js" ReplaceContent="TRUE" />
+</Module>
+</Elements>

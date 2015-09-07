@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Contas" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Contas" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Freebytes Ltda</Field>
+          <Field Name="CNPJ">23.323.233/0001-90</Field>
+          <Field Name="Logradouro">Rua Marechal Pimentel, 618</Field>
+          <Field Name="Complemento">Casa</Field>
+          <Field Name="CEP">04248-100</Field>
+          <Field Name="DataCriacao">2014-05-23</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Ronabrag Corporation SA</Field>
+          <Field Name="CNPJ">28.125.988/0001-25</Field>
+          <Field Name="Logradouro">Rua do Manifest, 1310</Field>
+          <Field Name="Complemento">Conjunto 73</Field>
+          <Field Name="CEP">04249-101</Field>
+          <Field Name="DataCriacao">2015-06-12</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

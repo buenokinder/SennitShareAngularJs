@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Propostas" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Propostas" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Título">Projeto SPIM Proposta </Field>
+          <Field Name="Oportunidade">Projeto SPIM</Field>
+          <Field Name="StatusProposta">Enviada ao Cliente</Field>
+          <Field Name="Oferta">Projeto .Net</Field>
+          <Field Name="DataCriacao">2015-07-15</Field>
+          <Field Name="CodProposta">20150124</Field>
+          <Field Name="VlrVenda">125.372,15</Field>
+          <Field Name="VlrCustoPrevisto">1.253,72</Field>
+          <Field Name="QtdHorasPrevisto">1250</Field>
+          <Field Name="DataFechamentoPrevisto">2015-07-25</Field>
+          <Field Name="DataEnvio">2015-07-16</Field>
+          <Field Name="DataInicioPrevisto">2015-08-01</Field>
+          <Field Name="DataFimPrevisto">2015-10-01</Field>
+        </Row>
+        <Row>
+          <Field Name="Título">Projeto SPIM Proposta </Field>
+          <Field Name="Oportunidade">Projeto SPIM</Field>
+          <Field Name="StatusProposta">Rascunho</Field>
+          <Field Name="Oferta">Projeto .Net</Field>
+          <Field Name="DataCriacao">2015-07-16</Field>
+          <Field Name="CodProposta">20150124</Field>
+          <Field Name="VlrVenda">125.372,15</Field>
+          <Field Name="VlrCustoPrevisto">1.253,72</Field>
+          <Field Name="QtdHorasPrevisto">1250</Field>
+          <Field Name="DataFechamentoPrevisto">2015-07-25</Field>
+          <Field Name="DataEnvio">2015-07-17</Field>
+          <Field Name="DataInicioPrevisto">2015-08-01</Field>
+          <Field Name="DataFimPrevisto">2015-10-01</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

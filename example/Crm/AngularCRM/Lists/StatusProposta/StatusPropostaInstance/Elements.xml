@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="StatusProposta" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/StatusProposta" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Título" >Rascunho</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Enviada ao Cliente</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Cancelada</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Perdida</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Fechada!</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

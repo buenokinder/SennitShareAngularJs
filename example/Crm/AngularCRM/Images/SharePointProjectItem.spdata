@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Images\" Type="ElementManifest" />
+    <ProjectItemFile Source="AppIcon.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="loader.gif" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="section-image-1.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="section-image-2.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="section-image-3.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="section-image-4.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="section-image-5.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="section-image-6.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="section-image-7.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="mantis_logo.png" Target="Images\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

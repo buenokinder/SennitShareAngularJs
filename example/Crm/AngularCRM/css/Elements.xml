@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="css">
+    <File Path="css\animate.css" Url="css/animate.css" ReplaceContent="TRUE" />
+    <File Path="css\animations.css" Url="css/animations.css" ReplaceContent="TRUE" />
+    <File Path="css\custom.css" Url="css/custom.css" ReplaceContent="TRUE" />
+    <File Path="css\print-invoice.css" Url="css/print-invoice.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\blue.css" Url="css/skins/blue.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\brown.css" Url="css/skins/brown.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\dark_cyan.css" Url="css/skins/dark_cyan.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\dark_gray.css" Url="css/skins/dark_gray.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\dark_red.css" Url="css/skins/dark_red.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\green.css" Url="css/skins/green.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\light_blue.css" Url="css/skins/light_blue.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\light_green.css" Url="css/skins/light_green.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\orange.css" Url="css/skins/orange.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\pink.css" Url="css/skins/pink.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\purple.css" Url="css/skins/purple.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\red.css" Url="css/skins/red.css" ReplaceContent="TRUE" />
+    <File Path="css\skins\yellow.css" Url="css/skins/yellow.css" ReplaceContent="TRUE" />
+    <File Path="css\style.css" Url="css/style.css" ReplaceContent="TRUE" />
+</Module>
+</Elements>

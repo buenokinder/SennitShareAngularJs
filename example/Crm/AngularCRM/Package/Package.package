@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5acd3c31-069a-48fa-bc2d-062d829646a7" solutionId="5acd3c31-069a-48fa-bc2d-062d829646a7" resetWebServer="false" sharePointProductVersion="16.0" name="AngularCRM" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="655a5794-7ae2-4bf9-908a-df4434e55416" />
+    <featureReference itemId="a9a19bf9-c087-44bf-9d5c-bceb2be46289" />
+    <featureReference itemId="f9842ce7-20d2-4b83-859b-f8f9a73d8bbe" />
+    <featureReference itemId="c0b342ed-4d3d-4e23-bbcd-76b2ce407141" />
+    <featureReference itemId="dc2d1157-a2a3-4d13-b629-3445c6962b22" />
+    <featureReference itemId="57251119-f4bf-45d7-9c51-7c9dbd901a62" />
+    <featureReference itemId="eb7142b7-3695-4d17-aafc-a09e70894219" />
+    <featureReference itemId="644a7f21-550d-4935-ba6e-7a1bbc5fe891" />
+  </features>
+</package>

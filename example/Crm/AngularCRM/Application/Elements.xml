@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Application">
+    <File Path="Application\services\homeService.js" Url="Application/services/homeService.js" ReplaceContent="TRUE" />
+    <File Path="Application\controller\homeController.js" Url="Application/controller/homeController.js" ReplaceContent="TRUE" />
+    <File Path="Application\views\home.html" Url="Application/views/home.html" ReplaceContent="TRUE" />
+    <File Path="Application\views\contas\index.html" Url="Application/views/contas/index.html" ReplaceContent="TRUE" />
+    <File Path="Application\views\contas\new.html" Url="Application/views/contas/new.html" ReplaceContent="TRUE" />
+    <File Path="Application\App.js" Url="Application/App.js" ReplaceContent="TRUE" />
+    <File Path="Application\start.html" Url="Application/start.html" ReplaceContent="TRUE" />
+    <File Path="Application\SennitShareJs\sennit-share.services.js" Url="Application/SennitShareJs/sennit-share.services.js" ReplaceContent="TRUE" />
+    <File Path="Application\views\contas\show.html" Url="Application/views/contas/show.html" ReplaceContent="TRUE" />
+    <File Path="Application\SennitShareJs\sennit-share.ui.js" Url="Application/SennitShareJs/sennit-share.ui.js" ReplaceContent="TRUE" />
+    <File Path="Application\views\contatos\indexContatos.html" Url="Application/views/contatos/indexContatos.html" ReplaceContent="TRUE" />
+    <File Path="Application\views\contatos\newContatos.html" Url="Application/views/contatos/newContatos.html" ReplaceContent="TRUE" />
+    <File Path="Application\views\contatos\showContatos.html" Url="Application/views/contatos/showContatos.html" ReplaceContent="TRUE" />
+    <File Path="Application\views\oportunidade\indexOportunidade.html" Url="Application/views/oportunidade/indexOportunidade.html" ReplaceContent="TRUE" />
+    <File Path="Application\views\oportunidade\newOportunidade.html" Url="Application/views/oportunidade/newOportunidade.html" ReplaceContent="TRUE" />
+    <File Path="Application\views\oportunidade\showOportunidade.html" Url="Application/views/oportunidade/showOportunidade.html" ReplaceContent="TRUE" />
+    <File Path="Application\views\proposta\indexProposta.html" Url="Application/views/proposta/indexProposta.html" ReplaceContent="TRUE" />
+    <File Path="Application\views\proposta\newProposta.html" Url="Application/views/proposta/newProposta.html" ReplaceContent="TRUE" />
+    <File Path="Application\views\proposta\showProposta.html" Url="Application/views/proposta/showProposta.html" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

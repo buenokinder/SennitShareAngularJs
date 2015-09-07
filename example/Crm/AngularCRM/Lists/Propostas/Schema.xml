@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Propostas" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Propostas" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01009e33751418ad4110a1a8d3b2ec8a7c9c" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{8fc72f7c-aa52-4776-ab57-f33f1b2287c4}" Name="Oportunidade" /><FieldRef ID="{d8fa225f-0c84-4d7c-8aad-c0d52d5a8b78}" Name="StatusProposta" /><FieldRef ID="{fea02874-48ce-46f1-97c0-d42b6ba2244f}" Name="Oferta" /><FieldRef ID="{9F8B4EE0-84B7-42c6-A094-5CBDE2115EB9}" Name="_DCDateCreated" /><FieldRef ID="{891cf123-7a58-43bd-ac39-3b70d76d1121}" Name="Cod_x005f_Proposta" /><FieldRef ID="{9341c046-2181-4599-9506-ae8aa1e539be}" Name="VlrVenda" /><FieldRef ID="{1c8e56e2-51ee-48fa-aee2-5aea50902ed9}" Name="VlrCustoPrevisto" /><FieldRef ID="{4920b67b-f5a6-416f-8e9c-c20533e7f509}" Name="QtdHorasPrevisto" /><FieldRef ID="{07aed4e4-1efd-4bae-9941-affb3e0f5ce3}" Name="Da" /><FieldRef ID="{7ab1845b-863d-45c9-af7c-c7be6f047050}" Name="DataEnvio" /><FieldRef ID="{d1749fff-221c-4748-9788-4cdbcefe8136}" Name="DataInicioPrevisto" /><FieldRef ID="{a1dcd908-2580-420f-96de-2f9d37bce9a1}" Name="DataFimPrevisto" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="Oportunidade" ID="{8fc72f7c-aa52-4776-ab57-f33f1b2287c4}" DisplayName="Oportunidade" Type="Lookup" Required="TRUE" List="Oportunidades" ShowField="Título" /><Field Name="StatusProposta" ID="{d8fa225f-0c84-4d7c-8aad-c0d52d5a8b78}" DisplayName="StatusProposta" Type="Lookup" Required="TRUE" List="StatusProposta" ShowField="Título" /><Field Name="Oferta" ID="{fea02874-48ce-46f1-97c0-d42b6ba2244f}" DisplayName="Oferta" Type="Lookup" List="Ofertas" ShowField="Título" /><Field ID="{9F8B4EE0-84B7-42c6-A094-5CBDE2115EB9}" Type="DateTime" Format="DateTime" Group="$Resources:core,Document_Columns;" Name="_DCDateCreated" DisplayName="DataCriacao" SourceID="http://schemas.microsoft.com/sharepoint/v3/fields" StaticName="_DCDateCreated" Description="$Resources:core,_DCDateCreatedDesc;" Required="TRUE" /><Field Name="Cod_x005f_Proposta" ID="{891cf123-7a58-43bd-ac39-3b70d76d1121}" DisplayName="CodProposta" Type="Text" Required="TRUE" /><Field Name="VlrVenda" ID="{9341c046-2181-4599-9506-ae8aa1e539be}" DisplayName="VlrVenda" Type="Currency" Required="TRUE" /><Field Name="VlrCustoPrevisto" ID="{1c8e56e2-51ee-48fa-aee2-5aea50902ed9}" DisplayName="VlrCustoPrevisto" Type="Currency" Required="TRUE" /><Field Name="QtdHorasPrevisto" ID="{4920b67b-f5a6-416f-8e9c-c20533e7f509}" DisplayName="QtdHorasPrevisto" Type="Number" /><Field Name="Da" ID="{07aed4e4-1efd-4bae-9941-affb3e0f5ce3}" DisplayName="DataFechamentoPrevisto" Type="DateTime" /><Field Name="DataEnvio" ID="{7ab1845b-863d-45c9-af7c-c7be6f047050}" DisplayName="DataEnvio" Type="DateTime" /><Field Name="DataInicioPrevisto" ID="{d1749fff-221c-4748-9788-4cdbcefe8136}" DisplayName="DataInicioPrevisto" Type="DateTime" /><Field Name="DataFimPrevisto" ID="{a1dcd908-2580-420f-96de-2f9d37bce9a1}" DisplayName="DataFimPrevisto" Type="DateTime" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Oportunidade" /><FieldRef Name="StatusProposta" /><FieldRef Name="Oferta" /><FieldRef Name="_DCDateCreated" /><FieldRef Name="Cod_x005f_Proposta" /><FieldRef Name="VlrVenda" /><FieldRef Name="VlrCustoPrevisto" /><FieldRef Name="QtdHorasPrevisto" /><FieldRef Name="Da" /><FieldRef Name="DataEnvio" /><FieldRef Name="DataInicioPrevisto" /><FieldRef Name="DataFimPrevisto" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

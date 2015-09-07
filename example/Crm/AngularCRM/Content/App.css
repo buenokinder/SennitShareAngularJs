@@ -1,0 +1,20 @@
+﻿/* Client Web Part styles */
+.clientwebpart-body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+    .clientwebpart-body .clientwebpart-div {
+        margin: 0;
+        padding: 5px;
+        border: 0;
+        position: relative;
+        width: 300px;
+        height: 200px;
+        background-color: #0072C6;
+        color: #FFFFFF;
+        font-size: 14pt;
+    }
+
+/* Place custom styles below */

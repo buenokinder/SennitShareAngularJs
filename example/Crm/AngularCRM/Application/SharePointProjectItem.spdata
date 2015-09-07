@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Application\" Type="ElementManifest" />
+    <ProjectItemFile Source="services\homeService.js" Target="Application\services\" Type="ElementFile" />
+    <ProjectItemFile Source="controller\homeController.js" Target="Application\controller\" Type="ElementFile" />
+    <ProjectItemFile Source="views\home.html" Target="Application\views\" Type="ElementFile" />
+    <ProjectItemFile Source="views\contas\index.html" Target="Application\views\contas\" Type="ElementFile" />
+    <ProjectItemFile Source="views\contas\new.html" Target="Application\views\contas\" Type="ElementFile" />
+    <ProjectItemFile Source="App.js" Target="Application\" Type="ElementFile" />
+    <ProjectItemFile Source="start.html" Target="Application\" Type="ElementFile" />
+    <ProjectItemFile Source="SennitShareJs\sennit-share.services.js" Target="Application\SennitShareJs\" Type="ElementFile" />
+    <ProjectItemFile Source="views\contas\show.html" Target="Application\views\contas\" Type="ElementFile" />
+    <ProjectItemFile Source="SennitShareJs\sennit-share.ui.js" Target="Application\SennitShareJs\" Type="ElementFile" />
+    <ProjectItemFile Source="views\contatos\indexContatos.html" Target="Application\views\contatos\" Type="ElementFile" />
+    <ProjectItemFile Source="views\contatos\newContatos.html" Target="Application\views\contatos\" Type="ElementFile" />
+    <ProjectItemFile Source="views\contatos\showContatos.html" Target="Application\views\contatos\" Type="ElementFile" />
+    <ProjectItemFile Source="views\proposta\indexProposta.html" Type="ElementFile" />
+    <ProjectItemFile Source="views\proposta\newProposta.html" Type="ElementFile" />
+    <ProjectItemFile Source="views\proposta\showProposta.html" Type="ElementFile" />
+  </Files>
+</ProjectItem>

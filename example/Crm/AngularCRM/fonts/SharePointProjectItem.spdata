@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="font-awesome\css\font-awesome.css" Target="fonts\font-awesome\css\" Type="ElementFile" />
+    <ProjectItemFile Source="font-awesome\css\font-awesome.min.css" Target="fonts\font-awesome\css\" Type="ElementFile" />
+    <ProjectItemFile Source="font-awesome\fonts\fontawesome-webfont.eot" Target="fonts\font-awesome\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="font-awesome\fonts\fontawesome-webfont.svg" Target="fonts\font-awesome\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="font-awesome\fonts\fontawesome-webfont.ttf" Target="fonts\font-awesome\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="font-awesome\fonts\fontawesome-webfont.woff" Target="fonts\font-awesome\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="font-awesome\fonts\fontawesome-webfont.woff2" Target="fonts\font-awesome\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="font-awesome\fonts\FontAwesome.otf" Target="fonts\font-awesome\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fontello\css\animation.css" Target="fonts\fontello\css\" Type="ElementFile" />
+    <ProjectItemFile Source="fontello\css\fontello-codes.css" Target="fonts\fontello\css\" Type="ElementFile" />
+    <ProjectItemFile Source="fontello\css\fontello-embedded.css" Target="fonts\fontello\css\" Type="ElementFile" />
+    <ProjectItemFile Source="fontello\css\fontello-ie7-codes.css" Target="fonts\fontello\css\" Type="ElementFile" />
+    <ProjectItemFile Source="fontello\css\fontello-ie7.css" Target="fonts\fontello\css\" Type="ElementFile" />
+    <ProjectItemFile Source="fontello\css\fontello.css" Target="fonts\fontello\css\" Type="ElementFile" />
+    <ProjectItemFile Source="fontello\font\fontello.eot" Target="fonts\fontello\font\" Type="ElementFile" />
+    <ProjectItemFile Source="fontello\font\fontello.svg" Target="fonts\fontello\font\" Type="ElementFile" />
+    <ProjectItemFile Source="fontello\font\fontello.ttf" Target="fonts\fontello\font\" Type="ElementFile" />
+    <ProjectItemFile Source="glyphicons-halflings-regular.eot" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="glyphicons-halflings-regular.svg" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="glyphicons-halflings-regular.ttf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="glyphicons-halflings-regular.woff" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Elements.xml" Target="fonts\" Type="ElementManifest" />
+  </Files>
+</ProjectItem>

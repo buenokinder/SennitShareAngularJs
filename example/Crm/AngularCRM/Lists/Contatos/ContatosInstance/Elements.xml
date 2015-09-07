@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Contatos" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Contatos" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Nome" >Josimar Antonio Soares</Field>
+          <Field Name="TelefoneCelular" >(13) 99482-5589</Field>
+          <Field Name="TelefoneComercial" >(13) 5502-1000</Field>
+          <Field Name="EmailComercial" >josimar.soares@Freebytes.com.br</Field>
+          <Field Name="EmailPessoal" ></Field>
+        </Row>
+        <Row>
+          <Field Name="Nome" >Amélia Silca</Field>
+          <Field Name="TelefoneCelular" >(13) 9999-9999</Field>
+          <Field Name="TelefoneComercial" >(13) 5502-1000</Field>
+          <Field Name="EmailComercial" >amelia.silva@Freebytes.com.br</Field>
+          <Field Name="EmailPessoal" ></Field>
+        </Row>
+        <Row>
+          <Field Name="Nome" >Juca Kifuri </Field>
+          <Field Name="TelefoneCelular" >(11) 99785-9322</Field>
+          <Field Name="TelefoneComercial" >(11) 2273-2055</Field>
+          <Field Name="EmailComercial" >Jk@Ronabrag.com.br</Field>
+          <Field Name="EmailPessoal" ></Field>
+        </Row>
+        <Row>
+          <Field Name="Nome" >Luciano do Vale</Field>
+          <Field Name="TelefoneCelular" >(11) 99785-9882</Field>
+          <Field Name="TelefoneComercial" >(11) 2273-2055</Field>
+          <Field Name="EmailComercial" >lv@Ronabrag.com.br</Field>
+          <Field Name="EmailPessoal" ></Field>
+        </Row>
+        <Row>
+          <Field Name="Nome" >Pedro de Lara</Field>
+          <Field Name="TelefoneCelular" >(11) 97255-9882</Field>
+          <Field Name="TelefoneComercial" >(11) 2273-2055</Field>
+          <Field Name="EmailComercial" >pl@Ronabrag.com.br</Field>
+          <Field Name="EmailPessoal" ></Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

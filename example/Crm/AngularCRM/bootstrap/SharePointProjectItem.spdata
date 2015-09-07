@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="css\bootstrap-theme.css" Target="bootstrap\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\bootstrap-theme.css.map" Target="bootstrap\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\bootstrap-theme.min.css" Target="bootstrap\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\bootstrap.css" Target="bootstrap\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\bootstrap.css.map" Target="bootstrap\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\bootstrap.min.css" Target="bootstrap\css\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.eot" Target="bootstrap\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.svg" Target="bootstrap\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.ttf" Target="bootstrap\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.woff" Target="bootstrap\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\glyphicons-halflings-regular.woff2" Target="bootstrap\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="js\bootstrap.js" Target="bootstrap\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\bootstrap.min.js" Target="bootstrap\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\npm.js" Target="bootstrap\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Elements.xml" Target="bootstrap\" Type="ElementManifest" />
+  </Files>
+</ProjectItem>

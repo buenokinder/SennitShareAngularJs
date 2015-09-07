@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="images">
+    <File Path="images\AppIcon.png" Url="images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="images\loader.gif" Url="Application/images/loader.gif" ReplaceContent="TRUE" />
+    
+    <File Path="images\section-image-1.png" Url="Application/images/section-image-1.png" ReplaceContent="TRUE" />
+    <File Path="images\section-image-2.png" Url="Application/images/section-image-2.png" ReplaceContent="TRUE" />
+    <File Path="images\section-image-3.png" Url="Application/images/section-image-3.png" ReplaceContent="TRUE" />
+    <File Path="images\section-image-4.png" Url="Application/images/section-image-4.png" ReplaceContent="TRUE" />
+    <File Path="images\section-image-5.png" Url="Application/images/section-image-5.png" ReplaceContent="TRUE" />
+    <File Path="images\section-image-6.png" Url="Application/images/section-image-6.png" ReplaceContent="TRUE" />
+    <File Path="images\section-image-7.png" Url="Application/images/section-image-7.png" ReplaceContent="TRUE" />
+    <File Path="Images\mantis_logo.png" Url="Application/Images/mantis_logo.png" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

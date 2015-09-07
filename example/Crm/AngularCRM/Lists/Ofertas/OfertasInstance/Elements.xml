@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Ofertas" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Ofertas" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Título" >Projeto .Net</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Projeto Sharepoint ou Office 365</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Projeto Java</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Projeto BI ou Banco de Dados</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Projeto Análise e Especificação</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Projeto Infra-Estrutura</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Contrato de Sustentação</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Licenciamento NimBUS</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Alocação de Recursos</Field>
+        </Row>
+        <Row>
+          <Field Name="Título" >Hunting de Recursos</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Oportunidades" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Oportunidades" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Projeto SPIM </Field>
+          <Field Name="Contas">Freebytes Ltda</Field>
+          <Field Name="StatusOportunidade">Aberta</Field>
+          <Field Name="DataCriacao">2015-07-07</Field>
+          <Field Name="ValorPrevisto">125.372,15</Field>
+          <Field Name="DataFechamentoPrevisto">2015-07-15</Field>
+          <Field Name="Oferta">Projeto .Net</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Projeto AgoraVai </Field>
+          <Field Name="Contas">Ronabrag Corporation SA</Field>
+          <Field Name="StatusOportunidade">Aberta</Field>
+          <Field Name="DataCriacao">2015-06-30</Field>
+          <Field Name="ValorPrevisto">2.125.372,15</Field>
+          <Field Name="DataFechamentoPrevisto">2015-07-25</Field>
+          <Field Name="Oferta">Licenciamento NimBUS</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Projeto AgoraVai </Field>
+          <Field Name="Contas">Ronabrag Corporation SA</Field>
+          <Field Name="StatusOportunidade">Aberta</Field>
+          <Field Name="DataCriacao">2015-06-30</Field>
+          <Field Name="ValorPrevisto">5.372,00</Field>
+          <Field Name="DataFechamentoPrevisto">2015-08-01</Field>
+          <Field Name="Oferta">Alocação de Recursos</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>
