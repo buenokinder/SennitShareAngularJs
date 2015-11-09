@@ -139,3 +139,22 @@ app.controller('employerController', ['$scope', 'employerService',  function ($s
     
 }]);
 ```
+
+
+
+## Get Users Birthday  Example
+
+
+```javascript
+'use strict';
+app.controller('birthDayUsersController', ['$scope', 'sennitRestApi',  function ($scope, sennitRestApi) {
+
+    $scope.birthdays = ([]);
+ 
+    //Capture all Users birthday of the September
+    $scope.birthdays = sennitRestApi.getMonthBirthDayRange('2000-09-01', '2000-09-31');
+    
+}]);
+```
+
+
