@@ -32,6 +32,16 @@ angular.module('sennit.sharejs-serices', [])
           _requestDigest = data.d.GetContextWebInformation.FormDigestValue
       });
 
+      // datetime format 2000-MM-DD
+      var _getMonthBirthDayRange = function (firstday, lastday ) {
+
+          return $http({
+              method: 'GET',
+              url: serviceBase + "/_api/search/query?querytext='*'&sourceid=%27B09A7990-05EA-4AF9-81EF-EDFAB16C4E31%27&selectproperties='PreferredName,AccountName,Birthday'&RefinementFilters='Birthday:range(datetime("+ startday +"),datetime(" + lastday + "))'",
+              headers: { "Accept": "application/json; odata=verbose" }
+          });
+      };
+
 
       
 
@@ -209,6 +219,10 @@ angular.module('sennit.sharejs-serices', [])
       sennitRestApiFactory.sendMail  = _sendMail;
 
       sennitRestApiFactory.url = serviceBase;
+
+      
+
+      sennitRestApiFactory.getMonthBirthDayRange = _getMonthBirthDayRange;
       sennitRestApiFactory.getSharepointListItemCount = _getSharepointListItemCount;
       sennitRestApiFactory.updateSharepointListItem = _updateSharepointListItem;
       sennitRestApiFactory.addSharepointListItem = _addSharepointListItem;
