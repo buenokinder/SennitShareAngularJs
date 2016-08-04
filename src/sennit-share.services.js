@@ -54,6 +54,16 @@ angular.module('sennit.sharejs-serices', [])
           });
       };
 
+     var _getMyGroups = function () {
+
+
+          return $http({
+              method: 'GET',
+              url: serviceBase + "/_api/web/currentuser/?$expand=groups",
+              headers: { "Accept": "application/json; odata=verbose" }
+          });
+      };
+
 
       var _getSharepointGetUser = function (id, query) {
 
@@ -222,6 +232,7 @@ angular.module('sennit.sharejs-serices', [])
 
       
 
+      sennitRestApiFactory.getMyGroups = _getMyGroups;
       sennitRestApiFactory.getMonthBirthDayRange = _getMonthBirthDayRange;
       sennitRestApiFactory.getSharepointListItemCount = _getSharepointListItemCount;
       sennitRestApiFactory.updateSharepointListItem = _updateSharepointListItem;
